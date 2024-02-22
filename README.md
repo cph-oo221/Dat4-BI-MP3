@@ -10,6 +10,7 @@
 - What type/s of regression have you applied?
   * Linear
   * Multiple linear
+  * Linear with polynomial features
 
 - Which were the challenges?
 
