@@ -8,6 +8,8 @@
 ## Questions
 
 - What type/s of regression have you applied?
+  * Linear
+  * Multiple linear
 
 - Which were the challenges?
 
