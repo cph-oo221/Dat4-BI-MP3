@@ -29,18 +29,22 @@ This project is the thrid mini project with focus on machine learning for predic
 
   - Linear
   - Multiple linear
-  - Linear with polynomial features
+  - Multiple Linear with polynomial features
+  - Linear trained with principal components
 
 - **Which were the challenges?**
 
-  xxx
+  A challenging task was to clean the data sufficiently to make the patterns in the data the most reliable.
+  We spent a lot of time, trying to reduce noise in the dataset, by reducing the amount of features. We had different appraoches to this by first trying to
+  identify the most correlating features and focusing on them. When that didn't help the models accuracy, we tried condensing the X matrix features into principal components.
+  Both solutions ended up not working well, and we ended up going with the first model.
 
 - **How accurate is your solution?**
 
-  After applying the three regression models: Linear, Multiple linear & Polynomial, can we conclude that the best result when trying these models are:
-
+  After applying the three regression models: Linear, Multiple linear & Polynomial, can we conclude that the best result when trying these models are
   Multiple linear regression (containing all slightly relevant features) with a $r^2$ of 55%.
 
 - **What could be done for further improvement of the accuracy?**
-
-  xxx
+- 
+  After trying to condense the data we had with no luck, we think what would help the model most could be a more strict cleansing of the dataset.
+  for example, by having a lower tolerance to outliers.
