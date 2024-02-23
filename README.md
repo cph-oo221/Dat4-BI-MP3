@@ -21,6 +21,8 @@ This project is the thrid mini project with focus on machine learning for predic
 
 #### **4. [Data folder (csv files)](./data)**
 
+#### **5. [Stored model (pkl files)](./deploy)**
+
 ## Questions
 
 - **What type/s of regression have you applied?**
